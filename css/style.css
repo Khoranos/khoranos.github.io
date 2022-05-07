@@ -1,0 +1,100 @@
+/*CSS*/
+
+* {
+    font-family: 'Oswald', sans-serif;;
+}
+body {
+    background-color: #eee4b7;
+}
+.header{
+    text-align: center;
+}
+.header, .post, .footer {
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000ce;
+    color: #ffce95;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    max-width: 720px;
+}
+.post-index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000000ce;
+    color: #ffce95;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    max-width: 720px;
+    height: 40px;
+    text-align: center;
+}
+.post {
+    text-align: justify;
+}
+.footer {
+    text-align: center;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    max-width: 500px;
+}
+
+    /* Link */
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    transition: all 0.5s ease;
+    color: gold;
+    cursor: pointer;
+}
+a:active {
+    color: white;
+}
+a {
+    text-decoration: none
+}
+
+    /* List */
+
+.list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+    /* Menu */
+
+table.menu {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th.menu, td.menu {
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+td.menu:hover {
+    transition: all 0.5s ease;
+    background-color: #ff808080;
+}
+
+    /* Animation */
+
+.header:hover, .post-index:hover, .post:hover, .footer:hover {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 5px 5px 5px #ff000080;
+}
