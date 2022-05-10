@@ -21,6 +21,7 @@ text-align: center;
   color: #ffce95;
   border: 3px solid #000000;
   border-radius: 10px;
+  max-width: 95%;
   max-width: 1024px;
 }
 .post-index {
@@ -33,6 +34,7 @@ text-align: center;
   color: #ffce95;
   border: 3px solid #000000;
   border-radius: 10px;
+  max-width: 95%;
   max-width: 1024px;
   height: 40px;
   text-align: center;
