@@ -1,6 +1,6 @@
 /*CSS*/
 * {
-  font-family: 'Oswald', sans-serif;;
+  font-family: 'Oswald', sans-serif;
 }
 body {
   background-color: #eee4b7;
@@ -107,8 +107,22 @@ td.table:hover {
   transition: all 0.5s ease;
   background-color: #ff808080;
 }
+table {
+  font-size: 1.5em;
+}
 /* Animation */
 .header:hover, .post-index:hover, .post:hover, .footer:hover {
   transition: box-shadow 0.3s ease;
   box-shadow: 5px 5px 5px #ff000080;
+}
+/* UP */
+#up {
+  font-size: 3em;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  padding: 0px 12px 2px 12px;
+  background-color: #ff0000b0;
+  position: fixed;
+  bottom: 0.25em;
+  right: 0.25em;
 }
