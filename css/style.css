@@ -108,7 +108,7 @@ td.table:hover {
   background-color: #ff808080;
 }
 table {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 /* Animation */
 .header:hover, .post-index:hover, .post:hover, .footer:hover {
@@ -116,13 +116,12 @@ table {
   box-shadow: 5px 5px 5px #ff000080;
 }
 /* UP */
-#up {
-  font-size: 64px;
-  border: 4px solid #000000;
-  border-radius: 16px;
-  padding: 0px 16px;
-  background-color: #ff0000b0;
+#i-up {
   position: fixed;
-  bottom: 16px;
-  right: 16px;
+  right: 2.5rem;
+  bottom: 2.5rem;
+  width: 5rem;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: #ff0000b2;
 }
