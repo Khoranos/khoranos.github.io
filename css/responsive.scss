@@ -49,22 +49,22 @@ body {
     }
     .post-a {
         width: 36%;
-        margin: 1%;
+        margin: 1% 1%;
         padding: 0% 1%;
         img {
             width: 99%;
             padding: 0px;
-            border-radius: 10px;
+            border-radius: 0px;
         }
     }
     .post-b {
         width: 56%;
-        margin: 1%;
+        margin: 0% 1%;
         padding: 0% 1%;
     }
     .post-c {
         width: 96%;
-        margin: 1%;
+        margin: 0% 1%;
         padding: 0% 1%;
     }
 }
@@ -72,26 +72,26 @@ body {
 // responsive vertical screen 
 @media screen  and (orientation: portrait) {
     .post {
-        max-width: 96vw;
+        max-width: 90vw;
     }
     .post-a {
         width: 96%;
-        margin: 1%;
+        margin: 1% 1%;
         padding: 0% 1%;
         img {
             width: 99%;
             padding: 0px;
-            border-radius: 10px;
+            border-radius: 0px;
         }
     }
     .post-b {
         width: 96%;
-        margin: 1%;
+        margin: 0% 1%;
         padding: 0% 1%;
     }
     .post-c {
         width: 96%;
-        margin: 1%;
+        margin: 0% 1%;
         padding: 0% 1%;
     }
 }
