@@ -1,3 +1,3 @@
 # khoranos.github.io
 Kho-Blog.
-Mi blog personal de desarrollo.
+Segunda version de mi blog personal de desarrollo.

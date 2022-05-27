@@ -1,0 +1,125 @@
+// light colors
+$light-font: rgb(0, 0, 0);
+$light-border: rgb(100, 181, 246);
+$light-background: rgb(224, 242, 241);
+$light-body-backgroung: rgb(238, 238, 238);
+
+// dark colors
+$dark-font: rgb(250, 250, 250);
+$dark-border: rgb(100, 181, 246);
+$dark-background: rgb(38, 50, 56);
+$dark-body-backgroung:  rgb(33, 33, 33);
+
+// content
+body {
+    font-family: 'Source Code Pro', monospace, sans-serif;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
+.post {
+    border: 3px solid;
+    border-radius: 10px;
+}
+.header, .post {
+    margin: auto;
+}
+
+// flex
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+// responsive horizontal screen
+@media screen and (orientation: landscape) {
+    .post {
+        max-width: 80vw;
+    }
+    .post-a {
+        width: 36%;
+        margin: 1%;
+        padding: 0% 1%;
+        img {
+            width: 99%;
+            padding: 0px;
+            border-radius: 10px;
+        }
+    }
+    .post-b {
+        width: 56%;
+        margin: 1%;
+        padding: 0% 1%;
+    }
+    .post-c {
+        width: 96%;
+        margin: 1%;
+        padding: 0% 1%;
+    }
+}
+
+// responsive vertical screen 
+@media screen  and (orientation: portrait) {
+    .post {
+        max-width: 96vw;
+    }
+    .post-a {
+        width: 96%;
+        margin: 1%;
+        padding: 0% 1%;
+        img {
+            width: 99%;
+            padding: 0px;
+            border-radius: 10px;
+        }
+    }
+    .post-b {
+        width: 96%;
+        margin: 1%;
+        padding: 0% 1%;
+    }
+    .post-c {
+        width: 96%;
+        margin: 1%;
+        padding: 0% 1%;
+    }
+}
+
+// light mode
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: $light-body-backgroung;
+    }
+    .text {
+        color: $light-font;
+    }
+    .post {
+        border-color: $light-border;
+        background-color: $light-background;
+    }
+}
+
+// dark mode
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $dark-body-backgroung;
+    }
+    .text {
+        color: $dark-font;
+    }
+    .post {
+        border-color: $dark-border;
+        background-color: $dark-background;
+    }
+}
